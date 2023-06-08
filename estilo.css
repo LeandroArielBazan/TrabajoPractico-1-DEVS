@@ -11,9 +11,8 @@ body {
 }
 
 #ventas {
-    background-color: rgb(208, 255, 0);
-    place-content: flex-end;
-    display: flex;
+    background-color: rgb(228, 255, 110);
+   
 }
 #opciones,#compras-realizadas{      
     place-content: center;

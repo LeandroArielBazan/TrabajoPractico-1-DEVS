@@ -1,8 +1,8 @@
-const selectTiposDeProducto = document.querySelector("#tipos-de-productos");
+const selectTiposDeProducto = document.querySelector("#tipo-de-productos");
 const selectCantidadDeProductos = document.querySelector("#cantidad-de-productos");
 const selectColores = document.querySelector("#colores");
 const fielsetVentas = document.querySelector("#ventas");
-const fielsetCompras = document.querySelector("#compras-realizadas")
+const fielsetCompras = document.querySelector("#compras-hechas")
 
 const IMG_1 = "https://bocashop.vteximg.com.br/arquivos/ids/168354-1000-1000/HE6324_1.jpg?v=637922173135430000"
 const IMG_2 = "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw58a33515/products/AD_HB0565/AD_HB0565-1.JPG"
@@ -53,9 +53,9 @@ for (let i = 0; i <= cantidadDeProductosGenerar; i++) {
     }
     fielsetVentas.innerHTML += `
             <div class="nombredelproducto">
-            <p>Producto=${PRODUCTO[i]}</p>
-            <img src="${IMAGENES[i]}" alt="">
-            <span>cantidad a comprar</span>
+            <p>Producto = ${PRODUCTO[i]}</p>
+            <img src = "${IMAGENES[i]}" alt="">
+            <span> Cantidad a comprar </span>
             <select name="" id="">
             <option value="${opcionesProductosGenerar}"></option>   
             </select>
